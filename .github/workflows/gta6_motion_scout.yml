@@ -1,0 +1,30 @@
+name: GTA VI - scan mouvements officiels
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install FFmpeg and image library
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          pip install 'Pillow>=10,<13'
+      - name: Prepare private contact sheet from official GTA VI motion
+        run: python clip-studio/scan_real_motion.py
+      - name: Export review images and metadata only
+        uses: actions/upload-artifact@v4
+        with:
+          name: gta6-moving-clip-contact-sheet
+          path: |
+            drafts/scout/sheet.jpg
+            drafts/scout/index.json
+          retention-days: 3
+          if-no-files-found: error
