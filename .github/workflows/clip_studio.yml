@@ -1,0 +1,142 @@
+name: Studio vertical GTA VI (brouillons)
+on:
+  workflow_dispatch:
+    inputs:
+      demo:
+        description: 'Démo originale sans vidéo externe ?'
+        type: boolean
+        required: true
+        default: true
+      rights_confirmed:
+        description: 'Je possède une autorisation de montage et réutilisation.'
+        type: boolean
+        required: true
+        default: false
+      video_url:
+        description: 'URL directe HTTPS vers un MP4 public autorisé, sans token.'
+        type: string
+        required: false
+      title:
+        description: 'Titre'
+        type: string
+        required: false
+        default: 'Moment GTA VI'
+      creator:
+        description: 'Crédit du créateur'
+        type: string
+        required: false
+      layout:
+        description: 'Mise en page verticale'
+        type: choice
+        required: true
+        default: blur
+        options:
+          - blur
+          - crop
+      language:
+        description: 'Langue du sous-titrage automatique'
+        type: choice
+        required: true
+        default: auto
+        options:
+          - auto
+          - fr
+          - en
+      start_seconds:
+        description: 'Début du clip (secondes)'
+        type: string
+        required: true
+        default: '0'
+      duration_seconds:
+        description: 'Durée max en secondes (1 à 90)'
+        type: string
+        required: true
+        default: '30'
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Vérifier les droits et le lien
+        env:
+          DEMO: ${{ inputs.demo }}
+          RIGHTS: ${{ inputs.rights_confirmed }}
+          VIDEO_URL: ${{ inputs.video_url }}
+        run: |
+          if [ "$DEMO" = "true" ]; then
+            echo "Démo originale, aucune vidéo de streamer."
+          else
+            if [ "$RIGHTS" != "true" ]; then echo "Autorisation non confirmée." >&2; exit 1; fi
+            python - <<'PY'
+          import os
+          from urllib.parse import urlparse
+          u = urlparse(os.environ['VIDEO_URL'])
+          if u.scheme != 'https' or not u.hostname or u.username or u.password or u.query or u.fragment:
+              raise SystemExit("URL HTTPS directe publique requise, sans token ni query string.")
+          if u.hostname in ('localhost', '127.0.0.1', '::1') or u.hostname.endswith('.local'):
+              raise SystemExit("Source non publique.")
+          PY
+          fi
+      - name: Installer FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+      - name: Créer un clip de démonstration original
+        if: ${{ inputs.demo }}
+        run: |
+          mkdir -p incoming
+          ffmpeg -hide_banner -loglevel error -y -f lavfi -i 'testsrc2=size=1280x720:rate=24' -f lavfi -i 'sine=frequency=440:sample_rate=48000' -t 6 -c:v libx264 -preset ultrafast -pix_fmt yuv420p -c:a aac -shortest incoming/source.mp4
+          cat > incoming/demo.srt <<'SRT'
+          1
+          00:00:00,300 --> 00:00:02,500
+          DÉMONSTRATION TECHNIQUE
+
+          2
+          00:00:02,600 --> 00:00:05,500
+          CLIP VERTICAL ORIGINAL
+
+          SRT
+      - name: Télécharger un MP4 explicitement autorisé
+        if: ${{ !inputs.demo }}
+        env:
+          VIDEO_URL: ${{ inputs.video_url }}
+        run: |
+          mkdir -p incoming
+          curl --fail --show-error --silent --location --max-time 240 --max-filesize 250000000 --output incoming/source.mp4 -- "$VIDEO_URL"
+          test "$(stat -c%s incoming/source.mp4)" -le 250000000
+      - name: Installer le sous-titrage automatique
+        if: ${{ !inputs.demo }}
+        run: pip install 'faster-whisper>=1.1,<2'
+      - name: Monter le brouillon
+        env:
+          DEMO: ${{ inputs.demo }}
+          TITLE: ${{ inputs.title }}
+          CREATOR: ${{ inputs.creator }}
+          LAYOUT: ${{ inputs.layout }}
+          LANGUAGE: ${{ inputs.language }}
+          START: ${{ inputs.start_seconds }}
+          DURATION: ${{ inputs.duration_seconds }}
+        run: |
+          if [ "$DEMO" = "true" ]; then
+            python clip-studio/studio.py --input incoming/source.mp4 --out drafts --title "DEMO - Format vertical" --creator "Création originale" --layout "$LAYOUT" --srt incoming/demo.srt --duration 6
+          else
+            python clip-studio/studio.py --input incoming/source.mp4 --out drafts --title "$TITLE" --creator "$CREATOR" --layout "$LAYOUT" --language "$LANGUAGE" --start "$START" --duration "$DURATION"
+          fi
+      - name: Conserver le MP4, sous-titres, miniature et légende
+        uses: actions/upload-artifact@v4
+        with:
+          name: clip-vertical-brouillon
+          path: |
+            drafts/clip_vertical.mp4
+            drafts/subtitles.srt
+            drafts/thumbnail.jpg
+            drafts/caption.txt
+            drafts/manifest.json
+          retention-days: 7
+          if-no-files-found: error
