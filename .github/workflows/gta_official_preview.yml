@@ -1,0 +1,30 @@
+name: GTA VI - apercu avec vrais visuels du jeu
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installer FFmpeg et les bibliotheques
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          pip install 'pillow>=10,<13'
+      - name: Creer le brouillon GTA VI non publie
+        run: python clip-studio/gta_official_preview.py
+      - name: Livrer la video et la note de droits
+        uses: actions/upload-artifact@v4
+        with:
+          name: gta6-visual-preview-review
+          path: |
+            drafts/gta6_actual_visuals_review.mp4
+            drafts/README_RIGHTS.txt
+          retention-days: 7
+          if-no-files-found: error
