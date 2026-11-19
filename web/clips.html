@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Veille GTA VI : clips populaires repérés sur Twitch, avec statut des droits, sans réutilisation automatique.">
+<title>Veille clips — Guide Leonida</title><link rel="stylesheet" href="style.css">
+<style>
+.notice{border:1px solid #695270;background:#211a30;border-radius:18px;padding:18px 20px;margin:24px 0 30px;color:#e4d8eb}
+.queue{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:25px 0 60px}
+.item{background:#17172b;border:1px solid #3d344c;border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:9px;min-height:210px}
+.item h3{margin:7px 0 0;font-size:19px;line-height:1.35}
+.item p{margin:0;color:#c1bacf;font-size:13px}
+.item a{color:#ff9abf;font-weight:700;margin-top:auto}
+.tag{display:inline-block;border:1px solid #765c64;border-radius:30px;color:#ffc0bc;padding:5px 10px;font-size:11px;letter-spacing:.03em;align-self:start}
+.sub{color:#c1bacf}.foot{margin-bottom:80px}.link{color:#ff9abf}
+@media(max-width:700px){.queue{grid-template-columns:1fr}}
+</style></head><body>
+<header class="top"><a class="brand" href="index.html">GUIDE <b>LEONIDA</b></a><nav><a href="index.html">Accueil</a><a href="checklist.html">Checklist</a></nav></header>
+<main><section style="padding:60px 0 20px">
+<p class="eyebrow">VEILLE AUTOMATISÉE • TWITCH</p><h1>Clips GTA VI repérés</h1>
+<p class="lead">Notre robot identifie des extraits populaires toutes les quatre heures. Cette liste donne des liens vers leurs auteurs : aucun fichier n'est téléchargé ou republié.</p>
+<div class="notice"><strong>Attention aux droits</strong><p>Ces vidéos restent la propriété de leurs ayants droit. Le référencement d'un clip ne donne pas le droit de le télécharger, monter ou monétiser. Seules les vidéos autorisées, dans le cadre d'une campagne ou d'un accord explicite, peuvent passer dans notre studio.</p></div>
+<p class="sub" id="updated">Chargement des derniers clips…</p>
+<section class="queue" id="queue" aria-label="Clips à examiner"></section></section>
+<section class="spot"><div><p class="eyebrow">ÉTAPE SUIVANTE</p><h2>Obtenir une source autorisée</h2><p>Rejoins une campagne, lis ses règles, récupère uniquement les médias qu'elle autorise, puis utilise le studio vertical pour préparer un brouillon.</p></div><a class="primary" href="https://contentrewards.com/c/campaigns/40046522-56d9-45ad-9198-faea8eca90c6" target="_blank" rel="noopener noreferrer">Voir une campagne</a></section>
+<p class="foot sub">Le montage automatique de brouillons est accessible dans <a class="link" href="https://github.com/Doryan92290/gta6-business-suite/actions/workflows/clip_studio.yml" target="_blank" rel="noopener noreferrer">GitHub Actions</a>. Publication toujours manuelle après vérification.</p></main><footer><span>Guide Leonida • Projet indépendant, non affilié à Twitch ou Rockstar.</span><a href="index.html">Accueil</a></footer>
+<script>
+const target=document.getElementById('queue');
+function elt(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=String(txt);return e;}
+(async()=>{
+try{
+const response=await fetch('clips.json',{cache:'no-store'});if(!response.ok)throw new Error('Liste momentanément indisponible');
+const data=await response.json(), clips=Array.isArray(data.clips)?data.clips:[];
+document.getElementById('updated').textContent=clips.length+' clips repérés • dernière collecte : '+(data.updated_at?new Date(data.updated_at).toLocaleString('fr-FR'):'inconnue')+' • vues au moment du repérage';
+if(!clips.length){target.append(elt('p','sub','Aucun clip affiché pour le moment. Réessaie après la prochaine collecte.'));return;}
+for(const clip of clips){
+const u=new URL(clip.url);if(u.protocol!=='https:'||u.hostname!=='www.twitch.tv'&&u.hostname!=='twitch.tv')continue;
+const card=elt('article','item');
+card.append(elt('span','tag','Droits à vérifier'));
+card.append(elt('h3','',clip.title||'Clip'));
+card.append(elt('p','',String(clip.creator||'Twitch')+' • '+Number(clip.views||0).toLocaleString('fr-FR')+' vues lors du scan'));
+const link=elt('a','','Voir le clip original sur Twitch');link.href=u.href;link.target='_blank';link.rel='noopener noreferrer';card.append(link);target.append(card);
+}
+}catch(err){document.getElementById('updated').textContent='La liste est momentanément indisponible.';target.append(elt('p','sub','Le site reste accessible pendant le prochain scan Twitch.'))}
+})();
+</script></body></html>
