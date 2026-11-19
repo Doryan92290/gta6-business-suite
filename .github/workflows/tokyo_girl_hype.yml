@@ -1,0 +1,44 @@
+name: Tokyo Girl - création de clips originaux (sans audio)
+on:
+  workflow_dispatch:
+    inputs:
+      story:
+        description: "Choisir le scénario du montage"
+        required: true
+        type: choice
+        default: one_last_mission
+        options:
+          - one_last_mission
+          - weekend
+          - sleep
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installer FFmpeg et les dépendances graphiques
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          pip install 'pillow>=10,<13' 'numpy>=1.26,<3'
+      - name: Créer le brouillon vidéo original et muet
+        env:
+          STORY: ${{ inputs.story }}
+        run: python clip-studio/tokyo_girl_hype.py --story "$STORY" --out drafts/tokyo_girl.mp4
+      - name: Archiver vidéo et légendes pour validation
+        uses: actions/upload-artifact@v4
+        with:
+          name: tokyo-girl-original-draft
+          path: |
+            drafts/tokyo_girl.mp4
+            drafts/caption_tiktok.txt
+            drafts/caption_instagram.txt
+            drafts/READ_ME_FIRST.txt
+          retention-days: 7
+          if-no-files-found: error
