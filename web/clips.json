@@ -1,6 +1,167 @@
 {
-  "updated_at": null,
-  "description": "Rights not verified.",
+  "updated_at": "2026-11-19T16:21:01Z",
+  "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
-  "clips": []
+  "clips": [
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/BlueIcySnoodSaltBae-qKp3QE1R_FoncNN1",
+      "title": "WHAT?!",
+      "creator": "ohnePixel",
+      "views": 84650,
+      "created_at": "2026-11-18T18:07:46Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/EsteemedAlertBoarTTours-qTa7AtR3giDjQF5-",
+      "title": "neuron activation",
+      "creator": "ohnePixel",
+      "views": 83140,
+      "created_at": "2026-11-18T15:53:10Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/jasontheween/clip/PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+      "title": "Reset",
+      "creator": "jasontheween",
+      "views": 58595,
+      "created_at": "2026-11-18T21:22:05Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/djmariio/clip/ShortCovertPanTriHard-M5Vbby4S2lLcJ-aB",
+      "title": "AY DIOS",
+      "creator": "DjMaRiiO",
+      "views": 55409,
+      "created_at": "2026-11-18T18:58:34Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/zloyn/clip/CrowdedTenaciousHorseradishTinyFace-feJ6eaDSJUmi2IEG",
+      "title": "грязюка",
+      "creator": "ZLOYn",
+      "views": 52887,
+      "created_at": "2026-11-18T12:19:22Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/illojuan/clip/TsundereSmoggyRaccoonPermaSmug-zUq7va1zP5OLv98f",
+      "title": "gta 6 borrado",
+      "creator": "IlloJuan",
+      "views": 49659,
+      "created_at": "2026-11-18T23:02:09Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/zoil/clip/DifferentSullenReubenItsBoshyTime-K1Eo8-_fjY3ZqQan",
+      "title": "wtf",
+      "creator": "Zoil",
+      "views": 46199,
+      "created_at": "2026-11-18T11:38:52Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/dinah/clip/InventiveStylishSwanTBCheesePull-bpUxg33iLnxUyEOG",
+      "title": "LMAO",
+      "creator": "Dinah",
+      "views": 44463,
+      "created_at": "2026-11-19T01:07:56Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/WiseBusyStapleNononoCat--XYNEyYmRlr4KoEY",
+      "title": "Ohnepixel agrees with Hasan.",
+      "creator": "ohnePixel",
+      "views": 37816,
+      "created_at": "2026-11-18T17:07:17Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/clix/clip/UnusualMoistSharkBIRB-Wlz2wmgaTOQAniKu",
+      "title": "Wtf",
+      "creator": "Clix",
+      "views": 35396,
+      "created_at": "2026-11-18T12:17:40Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/strogo/clip/ElegantSparklingRavenBigBrother-Wjzo9YZf7p-veV41",
+      "title": "ww",
+      "creator": "StRoGo",
+      "views": 32897,
+      "created_at": "2026-11-18T14:03:26Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/lirik/clip/ReliablePowerfulOilBatChest-ydNija0st6UB0byp",
+      "title": "Lirik finds An Easter egg",
+      "creator": "LIRIK",
+      "views": 32024,
+      "created_at": "2026-11-18T20:39:17Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/alanzoka/clip/SmallDeterminedTrollBloodTrail-zazo4PfHTAYNhgZ7",
+      "title": "que isso mandy?",
+      "creator": "alanzoka",
+      "views": 30319,
+      "created_at": "2026-11-18T12:38:26Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
+      "title": "xQc commits Grand Theft Auto for the first time in GTA 6",
+      "creator": "xQc",
+      "views": 28337,
+      "created_at": "2026-11-18T11:19:40Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/djmariio/clip/PiliableHonestTroutKreygasm-2ro3vkj3zEhVj0G7",
+      "title": "NO ME GUSTA EL GTA",
+      "creator": "DjMaRiiO",
+      "views": 26160,
+      "created_at": "2026-11-17T20:41:46Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/lacy/clip/SlickStylishBeaverStrawBeary-ljpqadoCXEhYwJx5",
+      "title": "LUCIA",
+      "creator": "Lacy",
+      "views": 25000,
+      "created_at": "2026-11-18T11:02:45Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/illojuan/clip/DiligentBumblingBaconKlappa-whzsnIIWPJDxTdud",
+      "title": "y lo borra puajajajaj",
+      "creator": "IlloJuan",
+      "views": 23991,
+      "created_at": "2026-11-18T23:01:59Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/chowh1/clip/CourageousHealthyAlligatorAMPEnergyCherry-FClolxTRsnfTREaT",
+      "title": "MDR",
+      "creator": "chowh1",
+      "views": 23139,
+      "created_at": "2026-11-18T12:42:55Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/VivaciousCallousYogurtDxCat-tcAghtrsbnP82HX2",
+      "title": "xQc shares his thoughts on GTA VI after a 24hr stream",
+      "creator": "xQc",
+      "views": 22752,
+      "created_at": "2026-11-19T05:44:23Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/TrustworthyCarefulJalapenoKAPOW--CPhZdDJiBW-X0-C",
+      "title": "XQC gets called a f****** P**** right after he said so to an NPC in GTA 6",
+      "creator": "xQc",
+      "views": 22644,
+      "created_at": "2026-11-18T12:27:14Z",
+      "permission": "not_verified"
+    }
+  ]
 }
