@@ -18,10 +18,14 @@ WORK.mkdir(parents=True,exist_ok=True)
 FONT="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 MAX_ZIP=800*1024*1024
 MAX_SOURCE=190*1024*1024
-LABELS=[("GTA VI", "PAS UN SIMPLE MONTAGE"),
-        ("JASON & LUCIA", "LEONIDA NOUS ATTEND"),
-        ("VICE CITY", "DU VRAI MOUVEMENT"),
-        ("ET TOI ?", "TU COMMENCES QUAND ?")]
+LABELS=[("GTA VI", "C'EST LE GRAND JOUR"),
+        ("JASON & LUCIA", "DIRECTION LEONIDA"),
+        ("BRAQUAGES", "ACTION À VICE CITY"),
+        ("VOITURES", "CHAOS DANS LES RUES"),
+        ("LEONIDA", "UNE NOUVELLE VIE"),
+        ("LE MONDE ENTIER", "REGARDE GTA VI"),
+        ("TA PREMIÈRE MISSION", "C'EST QUOI ?"),
+        ("GTA VI", "C'EST PARTI !")]
 
 def run(*args):
     p=subprocess.run([str(x) for x in args],capture_output=True,text=True)
@@ -62,13 +66,13 @@ def extract_clips(zippath):
                     shutil.copyfileobj(src,dst,1024*1024)
                 duration=float(run("ffprobe","-v","error","-show_entries","format=duration",
                                    "-of","default=noprint_wrappers=1:nokey=1",dest).strip())
-                if duration>=1.2:extracted.append({"name":item.filename,"path":str(dest),"duration":duration})
+                if duration>=0.3:extracted.append({"name":item.filename,"path":str(dest),"duration":duration})
                 else:dest.unlink(missing_ok=True)
-                if len(extracted)>=4:break
-            if len(extracted)>=4:break
+                if len(extracted)>=8:break
+            if len(extracted)>=8:break
         # Fallback to other official clips when name differs.
         for item in files:
-            if len(extracted)>=4:break
+            if len(extracted)>=8:break
             if any(p["name"]==item.filename for p in extracted):continue
             if item.file_size>MAX_SOURCE or "cover" in item.filename.lower():continue
             dest=WORK/f"source_{len(extracted)}.mp4"
@@ -76,9 +80,9 @@ def extract_clips(zippath):
                 shutil.copyfileobj(src,dst,1024*1024)
             duration=float(run("ffprobe","-v","error","-show_entries","format=duration",
                                "-of","default=noprint_wrappers=1:nokey=1",dest).strip())
-            if duration>=1.2:extracted.append({"name":item.filename,"path":str(dest),"duration":duration})
+            if duration>=0.3:extracted.append({"name":item.filename,"path":str(dest),"duration":duration})
             else:dest.unlink(missing_ok=True)
-    if len(extracted)<2:raise RuntimeError("Not enough real motion clips to edit")
+    if len(extracted)<6:raise RuntimeError("Not enough real motion clips to edit")
     return extracted
 
 def overlay(a,b,index):
@@ -101,7 +105,7 @@ def overlay(a,b,index):
     path=WORK/f"overlay_{index}.png";img.save(path);return path
 
 def make_clip(item,index):
-    seconds=min(4.0,item["duration"])
+    seconds=1.75
     png=overlay(*LABELS[index],index)
     dest=WORK/f"edited_{index}.mp4"
     # Accurate, moving footage in center with blurred 9:16 fill.
@@ -113,7 +117,7 @@ def make_clip(item,index):
         "[b][f]overlay=(W-w)/2:(H-h)/2:shortest=1[v];"
         "[v][1:v]overlay=0:0:shortest=1[out]"
     )
-    run("ffmpeg","-hide_banner","-loglevel","error","-y","-i",item["path"],"-loop","1","-i",png,
+    run("ffmpeg","-hide_banner","-loglevel","error","-y","-stream_loop","5","-i",item["path"],"-loop","1","-i",png,
         "-t",seconds,"-filter_complex",graph,"-map","[out]","-an",
         "-r","24","-c:v","libx264","-preset","veryfast","-crf","25",
         "-pix_fmt","yuv420p","-movflags","+faststart",dest)
@@ -124,7 +128,7 @@ def main():
     archive=download()
     sources=extract_clips(archive)
     archive.unlink(missing_ok=True)
-    picks=sources[:4]
+    picks=sources[:8]
     edited=[make_clip(p,i) for i,p in enumerate(picks)]
     concat=WORK/"concat.txt"
     concat.write_text("".join("file '"+e.name+"'\n" for e in edited),encoding="utf8")
