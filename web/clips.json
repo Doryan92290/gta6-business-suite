@@ -1,21 +1,13 @@
 {
-  "updated_at": "2026-11-20T07:30:38Z",
+  "updated_at": "2026-11-20T17:02:15Z",
   "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
   "clips": [
     {
-      "url": "https://www.twitch.tv/ohnepixel/clip/EsteemedAlertBoarTTours-qTa7AtR3giDjQF5-",
-      "title": "neuron activation",
-      "creator": "ohnePixel",
-      "views": 151626,
-      "created_at": "2026-11-18T15:53:10Z",
-      "permission": "not_verified"
-    },
-    {
       "url": "https://www.twitch.tv/ohnepixel/clip/BlueIcySnoodSaltBae-qKp3QE1R_FoncNN1",
       "title": "WHAT?!",
       "creator": "ohnePixel",
-      "views": 111468,
+      "views": 121156,
       "created_at": "2026-11-18T18:07:46Z",
       "permission": "not_verified"
     },
@@ -23,144 +15,152 @@
       "url": "https://www.twitch.tv/djmariio/clip/ShortCovertPanTriHard-M5Vbby4S2lLcJ-aB",
       "title": "AY DIOS",
       "creator": "DjMaRiiO",
-      "views": 99268,
+      "views": 111741,
       "created_at": "2026-11-18T18:58:34Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/jasontheween/clip/PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
-      "title": "Reset",
-      "creator": "jasontheween",
-      "views": 74049,
-      "created_at": "2026-11-18T21:22:05Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/dinah/clip/InventiveStylishSwanTBCheesePull-bpUxg33iLnxUyEOG",
       "title": "LMAO",
       "creator": "Dinah",
-      "views": 73573,
+      "views": 85140,
       "created_at": "2026-11-19T01:07:56Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/illojuan/clip/TsundereSmoggyRaccoonPermaSmug-zUq7va1zP5OLv98f",
-      "title": "gta 6 borrado",
-      "creator": "IlloJuan",
-      "views": 63425,
-      "created_at": "2026-11-18T23:02:09Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/zloyn/clip/CrowdedTenaciousHorseradishTinyFace-feJ6eaDSJUmi2IEG",
-      "title": "грязюка",
-      "creator": "ZLOYn",
-      "views": 59070,
-      "created_at": "2026-11-18T12:19:22Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ohnepixel/clip/WiseBusyStapleNononoCat--XYNEyYmRlr4KoEY",
-      "title": "Ohnepixel agrees with Hasan.",
-      "creator": "ohnePixel",
-      "views": 53300,
-      "created_at": "2026-11-18T17:07:17Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/zoil/clip/DifferentSullenReubenItsBoshyTime-K1Eo8-_fjY3ZqQan",
-      "title": "wtf",
-      "creator": "Zoil",
-      "views": 51909,
-      "created_at": "2026-11-18T11:38:52Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/xqc/clip/VivaciousCallousYogurtDxCat-tcAghtrsbnP82HX2",
-      "title": "xQc shares his thoughts on GTA VI after a 24hr stream",
-      "creator": "xQc",
-      "views": 47119,
-      "created_at": "2026-11-19T05:44:23Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/clix/clip/UnusualMoistSharkBIRB-Wlz2wmgaTOQAniKu",
-      "title": "Wtf",
-      "creator": "Clix",
-      "views": 45072,
-      "created_at": "2026-11-18T12:17:40Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/strogo/clip/ElegantSparklingRavenBigBrother-Wjzo9YZf7p-veV41",
-      "title": "ww",
-      "creator": "StRoGo",
-      "views": 43171,
-      "created_at": "2026-11-18T14:03:26Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/lirik/clip/ReliablePowerfulOilBatChest-ydNija0st6UB0byp",
-      "title": "Lirik finds An Easter egg",
-      "creator": "LIRIK",
-      "views": 42263,
-      "created_at": "2026-11-18T20:39:17Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/alanzoka/clip/SmallDeterminedTrollBloodTrail-zazo4PfHTAYNhgZ7",
-      "title": "que isso mandy?",
-      "creator": "alanzoka",
-      "views": 39939,
-      "created_at": "2026-11-18T12:38:26Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/lacy/clip/SlickStylishBeaverStrawBeary-ljpqadoCXEhYwJx5",
-      "title": "LUCIA",
-      "creator": "Lacy",
-      "views": 37655,
-      "created_at": "2026-11-18T11:02:45Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/djmariio/clip/ExuberantProudGazellePipeHype-KdJZz6OyzoDSO0wj",
-      "title": "Caminante",
-      "creator": "DjMaRiiO",
-      "views": 34103,
-      "created_at": "2026-11-18T19:01:10Z",
+      "url": "https://www.twitch.tv/jasontheween/clip/PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+      "title": "Reset",
+      "creator": "jasontheween",
+      "views": 77090,
+      "created_at": "2026-11-18T21:22:05Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/ishowspeed/clip/ViscousStormySquirrelDancingBanana-2gkXgAHz-CwpC3GO",
       "title": "GYATT OMG THAT CRAZY",
       "creator": "IShowSpeed",
-      "views": 33514,
+      "views": 73413,
       "created_at": "2026-11-19T01:49:49Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/xqc/clip/WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
-      "title": "xQc commits Grand Theft Auto for the first time in GTA 6",
+      "url": "https://www.twitch.tv/illojuan/clip/TsundereSmoggyRaccoonPermaSmug-zUq7va1zP5OLv98f",
+      "title": "gta 6 borrado",
+      "creator": "IlloJuan",
+      "views": 66620,
+      "created_at": "2026-11-18T23:02:09Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/WiseBusyStapleNononoCat--XYNEyYmRlr4KoEY",
+      "title": "Ohnepixel agrees with Hasan.",
+      "creator": "ohnePixel",
+      "views": 58085,
+      "created_at": "2026-11-18T17:07:17Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/VivaciousCallousYogurtDxCat-tcAghtrsbnP82HX2",
+      "title": "xQc shares his thoughts on GTA VI after a 24hr stream",
       "creator": "xQc",
-      "views": 31518,
-      "created_at": "2026-11-18T11:19:40Z",
+      "views": 52004,
+      "created_at": "2026-11-19T05:44:23Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/lirik/clip/ReliablePowerfulOilBatChest-ydNija0st6UB0byp",
+      "title": "Lirik finds An Easter egg",
+      "creator": "LIRIK",
+      "views": 44310,
+      "created_at": "2026-11-18T20:39:17Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/evelone2004/clip/VivaciousPreciousMacaroniKappaClaus-kcyHxQwbJEXgwnLA",
+      "title": "хай",
+      "creator": "evelone2004",
+      "views": 42066,
+      "created_at": "2026-11-18T17:54:59Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/marlon/clip/TiredConfidentPhoneCopyThis-bndkrew-Sq62qYKf",
+      "title": "gyattttttt",
+      "creator": "Marlon",
+      "views": 41866,
+      "created_at": "2026-11-18T20:31:33Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/djmariio/clip/ExuberantProudGazellePipeHype-KdJZz6OyzoDSO0wj",
+      "title": "Caminante",
+      "creator": "DjMaRiiO",
+      "views": 38653,
+      "created_at": "2026-11-18T19:01:10Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/illojuan/clip/FuriousAliveMonitorPunchTrees-TWdn7xitFr9S6Tx3",
       "title": "\"Acabo de cerrar el proceso\"",
       "creator": "IlloJuan",
-      "views": 29143,
+      "views": 32425,
       "created_at": "2026-11-18T23:05:58Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/HumbleGeniusStrawberryBleedPurple-CYhEi_LZY9mbAQxo",
+      "title": "bahaha",
+      "creator": "IShowSpeed",
+      "views": 29555,
+      "created_at": "2026-11-18T21:52:27Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/illojuan/clip/DiligentBumblingBaconKlappa-whzsnIIWPJDxTdud",
       "title": "y lo borra puajajajaj",
       "creator": "IlloJuan",
-      "views": 28988,
+      "views": 29549,
       "created_at": "2026-11-18T23:01:59Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/caseoh_/clip/CuriousBadEchidnaCoolStoryBro-g66TfyHbfF_r5vxZ",
+      "title": "How did they survive???",
+      "creator": "caseoh_",
+      "views": 29229,
+      "created_at": "2026-11-19T02:37:14Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/vegetta777/clip/DiligentSleepyApePJSalt-36726ZfcpgTYlOQu",
+      "title": "No hagaís esto jamás... 🔥",
+      "creator": "VEGETTA777",
+      "views": 28859,
+      "created_at": "2026-11-18T17:39:44Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/PricklySpineyChickpeaKeyboardCat-lPhZkKg4k9Nq98Bm",
+      "title": "ohnePixel on GTA VI difficulty: \"You can be 10 years old and you won't fail any mission\"",
+      "creator": "ohnePixel",
+      "views": 23992,
+      "created_at": "2026-11-19T17:49:31Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/stableronaldo/clip/DarlingJoyousYogurtCclamChamp-R3ta59T4kBJrwSVd",
+      "title": "GYAT DAMNNN",
+      "creator": "stableronaldo",
+      "views": 23236,
+      "created_at": "2026-11-18T20:43:46Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/buster/clip/InnocentSuccessfulAardvarkSoonerLater-j5Up3r0bvqeWUmWj",
+      "title": "авито",
+      "creator": "buster",
+      "views": 21293,
+      "created_at": "2026-11-18T19:31:33Z",
       "permission": "not_verified"
     }
   ]
