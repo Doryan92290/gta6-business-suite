@@ -1,85 +1,69 @@
 {
-  "updated_at": "2026-11-21T01:36:13Z",
+  "updated_at": "2026-11-21T12:48:14Z",
   "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
   "clips": [
     {
-      "url": "https://www.twitch.tv/ishowspeed/clip/ViscousStormySquirrelDancingBanana-2gkXgAHz-CwpC3GO",
-      "title": "GYATT OMG THAT CRAZY",
-      "creator": "IShowSpeed",
-      "views": 130556,
-      "created_at": "2026-11-19T01:49:49Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/xqc/clip/VivaciousCallousYogurtDxCat-tcAghtrsbnP82HX2",
-      "title": "xQc shares his thoughts on GTA VI after a 24hr stream",
-      "creator": "xQc",
-      "views": 56774,
-      "created_at": "2026-11-19T05:44:23Z",
+      "url": "https://www.twitch.tv/joe_bartolozzi/clip/ObliviousCloudyBorkNerfRedBlaster-YIUntU3N09sC5nzs",
+      "title": "Straight Cheeks",
+      "creator": "Joe_Bartolozzi",
+      "views": 56877,
+      "created_at": "2026-11-19T18:15:59Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/ishowspeed/clip/OnerousEncouragingKeyboardOSkomodo-4rg8jTATQ5xQiW3R",
       "title": "GTAXXO",
       "creator": "IShowSpeed",
-      "views": 35767,
+      "views": 42591,
       "created_at": "2026-11-19T15:50:36Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/joe_bartolozzi/clip/ObliviousCloudyBorkNerfRedBlaster-YIUntU3N09sC5nzs",
-      "title": "Straight Cheeks",
-      "creator": "Joe_Bartolozzi",
-      "views": 33511,
-      "created_at": "2026-11-19T18:15:59Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/caseoh_/clip/CuriousBadEchidnaCoolStoryBro-g66TfyHbfF_r5vxZ",
-      "title": "How did they survive???",
-      "creator": "caseoh_",
-      "views": 30417,
-      "created_at": "2026-11-19T02:37:14Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ohnepixel/clip/PricklySpineyChickpeaKeyboardCat-lPhZkKg4k9Nq98Bm",
-      "title": "ohnePixel on GTA VI difficulty: \"You can be 10 years old and you won't fail any mission\"",
-      "creator": "ohnePixel",
-      "views": 28508,
-      "created_at": "2026-11-19T17:49:31Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/ohnepixel/clip/AggressiveTardyDragonHotPokket--9_zAHpPX48qQTS-",
       "title": "Bro Want the ban So bad!! Hahahha",
       "creator": "ohnePixel",
-      "views": 26076,
+      "views": 33097,
       "created_at": "2026-11-19T12:50:24Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/ishowspeed/clip/OnerousSwissIguanaChefFrank-YhL9t_QVWtPNUe6v",
-      "title": "speed lek wylin in the club",
-      "creator": "IShowSpeed",
-      "views": 25176,
-      "created_at": "2026-11-19T04:05:31Z",
+      "url": "https://www.twitch.tv/ohnepixel/clip/PricklySpineyChickpeaKeyboardCat-lPhZkKg4k9Nq98Bm",
+      "title": "ohnePixel on GTA VI difficulty: \"You can be 10 years old and you won't fail any mission\"",
+      "creator": "ohnePixel",
+      "views": 31548,
+      "created_at": "2026-11-19T17:49:31Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/xqc/clip/SuperSlickStrawberryAMPEnergy-iLijF7374bmMsbtk",
-      "title": "xQc compares GTA 6 with modded framegen ON, vs framegen OFF.",
-      "creator": "xQc",
-      "views": 20676,
-      "created_at": "2026-11-19T06:11:11Z",
+      "url": "https://www.twitch.tv/leva2k/clip/WildConfidentAmazonCeilingCat-9OBbM1TnHKFzmoeP",
+      "title": "Баг в ГТА 6",
+      "creator": "leva2k",
+      "views": 21773,
+      "created_at": "2026-11-20T22:30:02Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/jynxzi/clip/RamshackleLaconicLapwingSpicyBoy-vXH5sbEmR5KAzDO7",
+      "title": "jump scare",
+      "creator": "Jynxzi",
+      "views": 21683,
+      "created_at": "2026-11-19T17:59:45Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/caseoh_/clip/ResoluteCrazyPistachioPrimeMe-FgUccHgoroOQYUJB",
+      "title": "cooked them",
+      "creator": "caseoh_",
+      "views": 20316,
+      "created_at": "2026-11-20T14:15:12Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/xqc/clip/FurryLittleBunnyCoolStoryBob-_J3RtuezOHW-UCWQ",
       "title": "gta6 review so far",
       "creator": "xQc",
-      "views": 19263,
+      "views": 20143,
       "created_at": "2026-11-19T16:47:56Z",
       "permission": "not_verified"
     },
@@ -87,80 +71,96 @@
       "url": "https://www.twitch.tv/dansgaming/clip/RenownedNeighborlyWaffleTwitchRaid-t74SktFrD6SZ0Iu6",
       "title": "ExtraDansGaming",
       "creator": "DansGaming",
-      "views": 18066,
+      "views": 20136,
       "created_at": "2026-11-19T19:56:20Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ludwig/clip/SassyWiseRingFeelsBadMan-KWr9lkKEN2ayfe1P",
+      "title": "one of the better drivers",
+      "creator": "Ludwig",
+      "views": 19156,
+      "created_at": "2026-11-20T23:36:07Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/shadowkekw/clip/HonorableCallousSparrow4Head-IcfS5u0mv32Yg1v6",
       "title": "Писюлька",
       "creator": "shadowkekw",
-      "views": 16745,
+      "views": 18508,
       "created_at": "2026-11-19T16:32:48Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ishowspeed/clip/AssiduousTacitCurlewBigBrother-iONSnZn21uUITjLw",
-      "title": "bro omega sus",
-      "creator": "IShowSpeed",
-      "views": 16307,
-      "created_at": "2026-11-19T04:29:44Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ishowspeed/clip/ObeseObliqueTildeHassanChop-V71KdClKP_JCqGtj",
-      "title": "LMAO moment | ishowspeed",
-      "creator": "IShowSpeed",
-      "views": 15277,
-      "created_at": "2026-11-19T04:04:54Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/caseoh_/clip/BeautifulModernTermiteYouWHY-nEB5VffTKnvTR2UD",
-      "title": "He called it! the timing haha",
-      "creator": "caseoh_",
-      "views": 14511,
-      "created_at": "2026-11-19T03:37:40Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/jynxzi/clip/RamshackleLaconicLapwingSpicyBoy-vXH5sbEmR5KAzDO7",
-      "title": "jump scare",
-      "creator": "Jynxzi",
-      "views": 13976,
-      "created_at": "2026-11-19T17:59:45Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/shadowkekw/clip/CrispyClearWasabiDerp-5yiCptGID1XSSvLy",
-      "title": "snimayut video 18+",
-      "creator": "shadowkekw",
-      "views": 13667,
-      "created_at": "2026-11-19T20:17:04Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/sweet_anita/clip/GrotesqueYummyAlligatorFloof-pf12WC99_rfasSiR",
-      "title": "Anita resists looking at man ass in the eye tracker challenge.",
-      "creator": "Sweet_Anita",
-      "views": 13155,
-      "created_at": "2026-11-20T02:51:02Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/avoidingthepuddle/clip/PricklyImpossibleReindeerKippa-K4GZFY5Z2KqgQNiU",
       "title": "the internet",
       "creator": "AvoidingThePuddle",
-      "views": 12873,
+      "views": 15745,
       "created_at": "2026-11-19T23:50:15Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/ohnepixel/clip/BlindingGleamingDonkeyOpieOP-LMiLWd2l1xgmvbEM",
-      "title": "Father of the Year Award goes to GoonerPixel",
+      "url": "https://www.twitch.tv/sweet_anita/clip/GrotesqueYummyAlligatorFloof-pf12WC99_rfasSiR",
+      "title": "Anita resists looking at man ass in the eye tracker challenge.",
+      "creator": "Sweet_Anita",
+      "views": 14518,
+      "created_at": "2026-11-20T02:51:02Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/shadowkekw/clip/CrispyClearWasabiDerp-5yiCptGID1XSSvLy",
+      "title": "snimayut video 18+",
+      "creator": "shadowkekw",
+      "views": 14248,
+      "created_at": "2026-11-19T20:17:04Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/RockySourAsteriskTooSpicy-6U8FM1MWLFtUXMc9",
+      "title": "changing clothes",
+      "creator": "IShowSpeed",
+      "views": 13782,
+      "created_at": "2026-11-19T16:52:21Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/LongHeartlessWhaleMau5-B9NBfqUvbpHRrgP4",
+      "title": "THIS STREAM GOT WILD!!",
+      "creator": "IShowSpeed",
+      "views": 13015,
+      "created_at": "2026-11-19T16:39:04Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/papaplatte/clip/TrustworthyResoluteSquirrelPipeHype-g5hEUulaOav1HGfr",
+      "title": "wir werden heute ordentlich spielen",
+      "creator": "Papaplatte",
+      "views": 12371,
+      "created_at": "2026-11-19T16:05:06Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/maya/clip/WisePlumpAlligatorTriHard-y6MMYwegVo5MdYak",
+      "title": "extremely violent chiblee",
+      "creator": "Maya",
+      "views": 11751,
+      "created_at": "2026-11-20T17:31:49Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/AbstruseCoweringCoyoteBatChest-Xg9AV0XyktTGeK8F",
+      "title": "Stick drift???",
       "creator": "ohnePixel",
-      "views": 12798,
-      "created_at": "2026-11-19T12:07:14Z",
+      "views": 11411,
+      "created_at": "2026-11-19T19:25:37Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ludwig/clip/BeautifulDaintyMomTwitchRaid-q4op7h8xugMC5r-E",
+      "title": "And they call the game woke",
+      "creator": "Ludwig",
+      "views": 10017,
+      "created_at": "2026-11-19T22:37:29Z",
       "permission": "not_verified"
     }
   ]
