@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T07:06:07Z",
+  "updated_at": "2026-11-22T16:26:28Z",
   "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
   "clips": [
@@ -7,23 +7,15 @@
       "url": "https://www.twitch.tv/ludwig/clip/SassyWiseRingFeelsBadMan-KWr9lkKEN2ayfe1P",
       "title": "one of the better drivers",
       "creator": "Ludwig",
-      "views": 43735,
+      "views": 49568,
       "created_at": "2026-11-20T23:36:07Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/caseoh_/clip/ResoluteCrazyPistachioPrimeMe-FgUccHgoroOQYUJB",
-      "title": "cooked them",
-      "creator": "caseoh_",
-      "views": 33525,
-      "created_at": "2026-11-20T14:15:12Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/leva2k/clip/WildConfidentAmazonCeilingCat-9OBbM1TnHKFzmoeP",
       "title": "Баг в ГТА 6",
       "creator": "leva2k",
-      "views": 25235,
+      "views": 25878,
       "created_at": "2026-11-20T22:30:02Z",
       "permission": "not_verified"
     },
@@ -31,136 +23,144 @@
       "url": "https://www.twitch.tv/uhn/clip/SmallProductiveHabaneroBibleThump-BFkAo0sNoJ4ntp0d",
       "title": "can i clip this...?",
       "creator": "UHN",
-      "views": 18986,
+      "views": 24289,
       "created_at": "2026-11-21T04:51:33Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/maya/clip/WisePlumpAlligatorTriHard-y6MMYwegVo5MdYak",
-      "title": "extremely violent chiblee",
-      "creator": "Maya",
-      "views": 15492,
-      "created_at": "2026-11-20T17:31:49Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/caseoh_/clip/EvilChillyKleeKeepo-uq_TPadcMek2sAdf",
-      "title": "dont snitch",
-      "creator": "caseoh_",
-      "views": 14054,
-      "created_at": "2026-11-20T14:16:46Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/rubius/clip/SmellyExuberantWatercressTakeNRG-977ccvDN3u-LPS1k",
-      "title": "fisicas de vapor pog",
-      "creator": "Rubius",
-      "views": 13770,
-      "created_at": "2026-11-20T18:44:08Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/caseoh_/clip/OddSweetToadMVGame-GtoXLBw9qz8XcLCg",
       "title": "kyle 1",
       "creator": "caseoh_",
-      "views": 12097,
+      "views": 18201,
       "created_at": "2026-11-21T13:47:39Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/maya/clip/WisePlumpAlligatorTriHard-y6MMYwegVo5MdYak",
+      "title": "extremely violent chiblee",
+      "creator": "Maya",
+      "views": 16585,
+      "created_at": "2026-11-20T17:31:49Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/rubius/clip/SmellyExuberantWatercressTakeNRG-977ccvDN3u-LPS1k",
+      "title": "fisicas de vapor pog",
+      "creator": "Rubius",
+      "views": 14311,
+      "created_at": "2026-11-20T18:44:08Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ludwig/clip/EnticingFrailTortoiseCharlieBitMe-gljPQtpIAF3An235",
+      "title": "Lud after he got his higlights D:",
+      "creator": "Ludwig",
+      "views": 13104,
+      "created_at": "2026-11-21T21:48:03Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/illojuan/clip/DignifiedAggressiveZebraCoolStoryBro-Jx6dSpRu2uUcadeI",
       "title": "toma gato",
       "creator": "IlloJuan",
-      "views": 10467,
+      "views": 12223,
       "created_at": "2026-11-20T18:37:57Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/caseoh_/clip/CourageousGleamingCurry4Head-6iFyrD9BaXzZcwiU",
-      "title": "step away",
-      "creator": "caseoh_",
-      "views": 9723,
-      "created_at": "2026-11-20T14:17:51Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/djmariio/clip/RelatedBlitheTildeJKanStyle-FadLzJdnukO7hFRy",
       "title": "MADRE MIA",
       "creator": "DjMaRiiO",
-      "views": 9668,
+      "views": 10128,
       "created_at": "2026-11-20T20:50:23Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/zloyn/clip/OriginalTemperedPresidentVoHiYo-w2RZWYkrXyBd7KyE",
-      "title": "Йосып",
-      "creator": "ZLOYn",
-      "views": 9596,
-      "created_at": "2026-11-20T11:33:44Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ohnepixel/clip/FragileTardySquidAMPEnergyCherry-sWGYVnxAPuBi_y1v",
-      "title": "Ohne Bricked Up!!",
-      "creator": "ohnePixel",
-      "views": 8330,
-      "created_at": "2026-11-20T21:41:29Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/mokrivskyi/clip/TameRoughEelHassaanChop-SUv3bMmoj3xI1-my",
-      "title": "дарова",
-      "creator": "mokrivskyi",
-      "views": 7811,
-      "created_at": "2026-11-20T10:46:46Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/drdonutttttt/clip/ZanyFantasticWolverineCoolCat-FMXQCyIb1vOYiJ6r",
       "title": "W DONUT SMP TAXES - Clip 3",
       "creator": "DrDonutttttt",
-      "views": 7522,
+      "views": 9401,
       "created_at": "2026-11-21T03:02:52Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/jerma985/clip/PrettiestExquisiteDadBudBlast-LATggCGeqt6Th8-H",
-      "title": "Miss?",
-      "creator": "Jerma985",
-      "views": 7483,
-      "created_at": "2026-11-20T11:44:24Z",
+      "url": "https://www.twitch.tv/ohnepixel/clip/FragileTardySquidAMPEnergyCherry-sWGYVnxAPuBi_y1v",
+      "title": "Ohne Bricked Up!!",
+      "creator": "ohnePixel",
+      "views": 8798,
+      "created_at": "2026-11-20T21:41:29Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/caseoh_/clip/EntertainingSillyDeerBleedPurple-PZTfsHBXFv6f_vDq",
-      "title": "beef slap",
+      "url": "https://www.twitch.tv/bratishkinoff/clip/HotLaconicPassionfruitPanicBasket-u01ABPaV6Y1NvlQc",
+      "title": "ПТИЦА 200",
+      "creator": "bratishkinOFF",
+      "views": 8383,
+      "created_at": "2026-11-20T16:27:47Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/montanablack88/clip/EmpathicKathishPeanutTheRinger-wv5wLBedZtgN01zu",
+      "title": "Leute fallen auf Wutköder Video rein",
+      "creator": "MontanaBlack88",
+      "views": 7618,
+      "created_at": "2026-11-21T08:12:47Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/caseoh_/clip/PolishedDirtyOtterFunRun-Uz0aNrAhtbOQlzg7",
+      "title": "kyle 2",
       "creator": "caseoh_",
-      "views": 7321,
-      "created_at": "2026-11-20T14:47:29Z",
+      "views": 7411,
+      "created_at": "2026-11-21T13:48:56Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/illojuan/clip/ObeseBenevolentKalePanicBasket-GgzSln1vRdDwXq-D",
+      "title": "La serpiente",
+      "creator": "IlloJuan",
+      "views": 7383,
+      "created_at": "2026-11-20T20:03:56Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ludwig/clip/HeadstrongMiniatureMeerkatChefFrank-nbtWhXGIzTSMRThf",
+      "title": "accumulating insurance fraud",
+      "creator": "Ludwig",
+      "views": 7330,
+      "created_at": "2026-11-21T22:12:20Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/ishowspeed/clip/BusyExuberantSnakeDAESuppy-dmvy5b76zhI-jSJY",
       "title": "NOOOOOO",
       "creator": "IShowSpeed",
-      "views": 6820,
+      "views": 7193,
       "created_at": "2026-11-20T18:02:01Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/ohnepixel/clip/MoldyRespectfulOstrichPartyTime-xKoKzoNh9OvfuiNS",
-      "title": "ohnePixel says GTA 6 gets him more bricked up than porn",
-      "creator": "ohnePixel",
-      "views": 6625,
-      "created_at": "2026-11-20T12:53:51Z",
+      "url": "https://www.twitch.tv/joe_bartolozzi/clip/AcceptableKindChinchillaCurseLit-7ypQY1ylfv-1xE8k",
+      "title": "W GOON GAME!",
+      "creator": "Joe_Bartolozzi",
+      "views": 6988,
+      "created_at": "2026-11-20T18:17:24Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/theregulationpod/clip/GiftedUninterestedFishCharlietheUnicorn-XJGPUVMfRTYD7VBn",
       "title": "Gavin hates polar bears",
       "creator": "theregulationpod",
-      "views": 6571,
+      "views": 6976,
       "created_at": "2026-11-20T18:59:36Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/yololaryy/clip/BoringDistinctCrabsHeyGirl-PVq5mSNu9AIvpFQm",
+      "title": "GTA 6 (95%) BIKINI STREAM👙🌶️ !cam2 !s !gooner",
+      "creator": "yololaryy",
+      "views": 6917,
+      "created_at": "2026-11-20T20:24:29Z",
       "permission": "not_verified"
     }
   ]
