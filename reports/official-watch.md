@@ -1,4 +1,4 @@
-# Veille Rockstar — 2026-11-21 14:39 UTC
+# Veille Rockstar — 2026-11-22 14:35 UTC
 
 **À vérifier manuellement. Aucun article publié automatiquement.**
 
