@@ -1,166 +1,166 @@
 {
-  "updated_at": "2026-11-23T14:56:03Z",
+  "updated_at": "2026-11-24T02:57:56Z",
   "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
   "clips": [
     {
-      "url": "https://www.twitch.tv/tminnzy/clip/AntsyPolishedKoupreyBibleThump-NHTlUqUqyb4BUNY3",
-      "title": "MANDY WALKED IN AND I FORGOT ABOUT THE MISSION 😳",
-      "creator": "Tminnzy",
-      "views": 200311,
-      "created_at": "2026-11-21T19:05:42Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/tminnzy/clip/MushyComfortableFriseePJSalt-7m1EwNbNasg6cetp",
-      "title": "I CAN'T TALK ABOUT QIXSO'S PARTY… I SIGNED AN NDA 🤐",
-      "creator": "Tminnzy",
-      "views": 100289,
-      "created_at": "2026-11-21T19:06:27Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/tminnzy/clip/PatientSweetMilkArgieB8-usdfKujw8E2OZHUm",
-      "title": "ONE WRONG BUTTON AND JASON WAS DEAD 💀",
-      "creator": "Tminnzy",
-      "views": 90598,
-      "created_at": "2026-11-21T15:03:12Z",
-      "permission": "not_verified"
-    },
-    {
       "url": "https://www.twitch.tv/rubius/clip/BlatantTenderIcecreamUWot-NDulaXJlbR9f2ztu",
       "title": "Hueles a choto",
       "creator": "Rubius",
-      "views": 35371,
+      "views": 63189,
       "created_at": "2026-11-23T01:41:36Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ludwig/clip/EnticingFrailTortoiseCharlieBitMe-gljPQtpIAF3An235",
-      "title": "Lud after he got his higlights D:",
-      "creator": "Ludwig",
-      "views": 24303,
-      "created_at": "2026-11-21T21:48:03Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/gilticus/clip/ToughTenuousEchidnaKippa-PQxz4CmGueZYi9Mq",
-      "title": "Вот это роверы",
-      "creator": "Gilticus",
-      "views": 15952,
-      "created_at": "2026-11-21T15:46:08Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ludwig/clip/HeadstrongMiniatureMeerkatChefFrank-nbtWhXGIzTSMRThf",
-      "title": "accumulating insurance fraud",
-      "creator": "Ludwig",
-      "views": 12248,
-      "created_at": "2026-11-21T22:12:20Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/drupy876/clip/OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr",
-      "title": "push ping ping crazy B****😭😭😂",
-      "creator": "drupy876",
-      "views": 11315,
-      "created_at": "2026-11-23T00:51:39Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/xqc/clip/ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl",
       "title": "xQc on GTA 6 locking players into a relationship",
       "creator": "xQc",
-      "views": 10161,
+      "views": 29172,
       "created_at": "2026-11-23T06:08:15Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/kaicenat/clip/LaconicConsiderateCaterpillarKippa-gK9T9i4PZk82S-SA",
-      "title": "KAI GOT MOTION 🤪",
-      "creator": "KaiCenat",
-      "views": 9259,
-      "created_at": "2026-11-22T01:09:06Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/zoreee/clip/TenuousDependableBananaMingLee-KqfjPnql33RIJzBg",
-      "title": "I thought it was an Underpass!",
-      "creator": "ZoReee",
-      "views": 8606,
-      "created_at": "2026-11-22T22:31:50Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/woolieversus/clip/CrunchyCleanTapirBIRB-c1O4OFz7EiCQzsvh",
-      "title": "QA POWERRR",
-      "creator": "WoolieVersus",
-      "views": 8234,
-      "created_at": "2026-11-21T23:15:35Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/xqc/clip/DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc",
       "title": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
       "creator": "xQc",
-      "views": 7392,
+      "views": 17407,
       "created_at": "2026-11-23T06:18:28Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/drupy876/clip/OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr",
+      "title": "push ping ping crazy B****😭😭😂",
+      "creator": "drupy876",
+      "views": 12237,
+      "created_at": "2026-11-23T00:51:39Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/caseoh_/clip/SmoggyCleverMosquitoTBTacoRight-RVBfPSPbe5p5k44q",
+      "title": "get away",
+      "creator": "caseoh_",
+      "views": 10508,
+      "created_at": "2026-11-23T13:58:21Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/auronplay/clip/FineFastPotatoOptimizePrime-inV4L6UqTN4eWTV2",
       "title": "ESTAS BIEN LUCIA?",
       "creator": "auronplay",
-      "views": 6625,
+      "views": 9992,
       "created_at": "2026-11-22T19:29:33Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/gilticus/clip/ExcitedShyClamUnSane-gJgbRcM6-jdibibg",
-      "title": "67",
-      "creator": "Gilticus",
-      "views": 6530,
-      "created_at": "2026-11-21T17:44:32Z",
+      "url": "https://www.twitch.tv/zoreee/clip/TenuousDependableBananaMingLee-KqfjPnql33RIJzBg",
+      "title": "I thought it was an Underpass!",
+      "creator": "ZoReee",
+      "views": 9550,
+      "created_at": "2026-11-22T22:31:50Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/stableronaldo/clip/PlacidZealousChipmunkCmonBruh-mDE-vRdzCWDPLNIb",
-      "title": "CAUGHT???",
-      "creator": "stableronaldo",
-      "views": 6508,
-      "created_at": "2026-11-21T22:49:37Z",
+      "url": "https://www.twitch.tv/cohhcarnage/clip/ArtsyGenerousAniseDendiFace-NxwfD1GOBiYOHbfx",
+      "title": "Cohh realized something about the UFO Easter Egg he found in GTA 6",
+      "creator": "CohhCarnage",
+      "views": 9488,
+      "created_at": "2026-11-23T17:56:49Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/woolieversus/clip/ImpartialSeductiveOrangeEleGiggle-UMDD_bE-Q7q3rN3X",
-      "title": "Reggie folds",
-      "creator": "WoolieVersus",
-      "views": 6490,
-      "created_at": "2026-11-22T08:09:56Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/joe_bartolozzi/clip/MagnificentCoweringYogurtRickroll-DOtt8E5gX7IYT3Cf",
-      "title": "joe bart becomes a true florida man",
-      "creator": "Joe_Bartolozzi",
-      "views": 6213,
-      "created_at": "2026-11-21T22:25:30Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/jasontheween/clip/TentativeOutstandingGoshawkImGlitch-eotur1_pZFWPlZYU",
-      "title": "JTW'S REACTION",
-      "creator": "jasontheween",
-      "views": 6179,
-      "created_at": "2026-11-21T16:17:32Z",
+      "url": "https://www.twitch.tv/clix/clip/ConcernedDarkMagePeanutButterJellyTime-mNYVIXLMA54D52ZN",
+      "title": "sssssssssssss",
+      "creator": "Clix",
+      "views": 7604,
+      "created_at": "2026-11-22T03:42:29Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/silky/clip/AbstruseBoldPassionfruitFrankerZ-6E4_SZC8peKJr4au",
       "title": "NO KILL",
       "creator": "Silky",
-      "views": 5831,
+      "views": 7396,
       "created_at": "2026-11-22T04:04:05Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/woolieversus/clip/ImpartialSeductiveOrangeEleGiggle-UMDD_bE-Q7q3rN3X",
+      "title": "Reggie folds",
+      "creator": "WoolieVersus",
+      "views": 6974,
+      "created_at": "2026-11-22T08:09:56Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/baupenner/clip/FlaccidVainCheetahNinjaGrumpy-ObgvzxgWh3U_oG2y",
+      "title": "Mit ganzem Körper",
+      "creator": "BauPenner",
+      "views": 6654,
+      "created_at": "2026-11-22T16:19:33Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/lirik/clip/PlainDiligentOstrichPartyTime-PnISl-0Z9sTNCexW",
+      "title": "perfectly timed npc dialogue",
+      "creator": "LIRIK",
+      "views": 6471,
+      "created_at": "2026-11-23T19:10:47Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/lacy/clip/CloudyJoyousAlmondBibleThump--4P8K4-5MiTiWMjA",
+      "title": "wwwwww",
+      "creator": "Lacy",
+      "views": 6455,
+      "created_at": "2026-11-22T22:37:47Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/KnottyTameRhinocerosHeyGirl-OgpyqkXK-_K-KA15",
+      "title": "xQc got the Bonnie and Clyde Ending in GTA 6",
+      "creator": "xQc",
+      "views": 6010,
+      "created_at": "2026-11-23T06:13:42Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/gotaga/clip/SquareCautiousQuailTooSpicy-RvR_MHl0onTqsY8H",
+      "title": "x",
+      "creator": "Gotaga",
+      "views": 5796,
+      "created_at": "2026-11-22T14:24:00Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/illojuan/clip/HomelyPlayfulChimpanzeeHassanChop-e2AgFBsrixYbnet5",
+      "title": "Ea*ster Eggazo \"Qué es este Juego?\"",
+      "creator": "IlloJuan",
+      "views": 5663,
+      "created_at": "2026-11-22T22:36:37Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/anyme023/clip/HyperEnergeticSalamanderVoteNay-Us2V6kOGUhcWO25s",
+      "title": "REV 5",
+      "creator": "Anyme023",
+      "views": 5314,
+      "created_at": "2026-11-22T23:07:05Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/montanablack88/clip/SlickTenuousFriesFailFish-727ygMxv79ctxfgt",
+      "title": "Monte tötet Katze wirft Leute damit ab",
+      "creator": "MontanaBlack88",
+      "views": 5206,
+      "created_at": "2026-11-22T08:37:57Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/DiligentCloudyAnteaterRlyTho-wToiIPYE4haHsuxU",
+      "title": "speed finds ALIEN in gta",
+      "creator": "IShowSpeed",
+      "views": 4502,
+      "created_at": "2026-11-22T17:23:53Z",
       "permission": "not_verified"
     }
   ]
