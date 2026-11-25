@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:59:25Z",
+  "updated_at": "2026-11-25T00:53:41Z",
   "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
   "clips": [
@@ -7,7 +7,7 @@
       "url": "https://www.twitch.tv/rubius/clip/BlatantTenderIcecreamUWot-NDulaXJlbR9f2ztu",
       "title": "Hueles a choto",
       "creator": "Rubius",
-      "views": 64499,
+      "views": 65282,
       "created_at": "2026-11-23T01:41:36Z",
       "permission": "not_verified"
     },
@@ -15,7 +15,7 @@
       "url": "https://www.twitch.tv/tminnzy/clip/RudeBlueStapleResidentSleeper-hN6aHqGrcSgwB2Dl",
       "title": "bro",
       "creator": "Tminnzy",
-      "views": 49739,
+      "views": 50375,
       "created_at": "2026-11-23T15:01:45Z",
       "permission": "not_verified"
     },
@@ -23,144 +23,144 @@
       "url": "https://www.twitch.tv/xqc/clip/ResilientDrabGrasshopperWow-fKAbKH4GGUaEC2dl",
       "title": "xQc on GTA 6 locking players into a relationship",
       "creator": "xQc",
-      "views": 38239,
+      "views": 40515,
       "created_at": "2026-11-23T06:08:15Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/xqc/clip/DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc",
-      "title": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
-      "creator": "xQc",
-      "views": 20837,
-      "created_at": "2026-11-23T06:18:28Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/caseoh_/clip/SmoggyCleverMosquitoTBTacoRight-RVBfPSPbe5p5k44q",
       "title": "get away",
       "creator": "caseoh_",
-      "views": 19289,
+      "views": 23683,
       "created_at": "2026-11-23T13:58:21Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/DullPrettyCaterpillarKappaWealth-_PBk2Ut1sJ0GUkqc",
+      "title": "xQc finishes GTA 6 after 62 hours and rates it a 9/10",
+      "creator": "xQc",
+      "views": 22213,
+      "created_at": "2026-11-23T06:18:28Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/cohhcarnage/clip/ArtsyGenerousAniseDendiFace-NxwfD1GOBiYOHbfx",
       "title": "Cohh realized something about the UFO Easter Egg he found in GTA 6",
       "creator": "CohhCarnage",
-      "views": 17482,
+      "views": 20879,
       "created_at": "2026-11-23T17:56:49Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/drupy876/clip/OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr",
-      "title": "push ping ping crazy B****😭😭😂",
-      "creator": "drupy876",
-      "views": 12346,
-      "created_at": "2026-11-23T00:51:39Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/lirik/clip/PlainDiligentOstrichPartyTime-PnISl-0Z9sTNCexW",
-      "title": "perfectly timed npc dialogue",
-      "creator": "LIRIK",
-      "views": 11447,
-      "created_at": "2026-11-23T19:10:47Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/auronplay/clip/FineFastPotatoOptimizePrime-inV4L6UqTN4eWTV2",
-      "title": "ESTAS BIEN LUCIA?",
-      "creator": "auronplay",
-      "views": 11268,
-      "created_at": "2026-11-22T19:29:33Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/zoreee/clip/TenuousDependableBananaMingLee-KqfjPnql33RIJzBg",
-      "title": "I thought it was an Underpass!",
-      "creator": "ZoReee",
-      "views": 9785,
-      "created_at": "2026-11-22T22:31:50Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/baupenner/clip/FlaccidVainCheetahNinjaGrumpy-ObgvzxgWh3U_oG2y",
-      "title": "Mit ganzem Körper",
-      "creator": "BauPenner",
-      "views": 8915,
-      "created_at": "2026-11-22T16:19:33Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/lacy/clip/CloudyJoyousAlmondBibleThump--4P8K4-5MiTiWMjA",
-      "title": "wwwwww",
-      "creator": "Lacy",
-      "views": 8672,
-      "created_at": "2026-11-22T22:37:47Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/avoidingthepuddle/clip/EmpathicLitigiousTurtleShadyLulu-kKjUS1498zVbxMOw",
       "title": "god damnnn",
       "creator": "AvoidingThePuddle",
-      "views": 8043,
+      "views": 19511,
       "created_at": "2026-11-23T23:26:34Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/lirik/clip/PlainDiligentOstrichPartyTime-PnISl-0Z9sTNCexW",
+      "title": "perfectly timed npc dialogue",
+      "creator": "LIRIK",
+      "views": 18618,
+      "created_at": "2026-11-23T19:10:47Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/drupy876/clip/OutstandingFairCobblerPraiseIt-Oz-2zy8DKMNXaovr",
+      "title": "push ping ping crazy B****😭😭😂",
+      "creator": "drupy876",
+      "views": 12424,
+      "created_at": "2026-11-23T00:51:39Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/caseoh_/clip/BlueBlitheMarjoramWoofer-ZSasg_aIiI5hO6pA",
       "title": "nice scooter",
       "creator": "caseoh_",
-      "views": 7425,
+      "views": 9342,
       "created_at": "2026-11-23T13:59:35Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/rubius/clip/SpunkyFamousSharkLitFam-GWjLleM47IHidm22",
+      "title": "🥵Lucia GTA6🔥",
+      "creator": "Rubius",
+      "views": 7193,
+      "created_at": "2026-11-23T20:44:23Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/xqc/clip/KnottyTameRhinocerosHeyGirl-OgpyqkXK-_K-KA15",
       "title": "xQc got the Bonnie and Clyde Ending in GTA 6",
       "creator": "xQc",
-      "views": 6501,
+      "views": 6966,
       "created_at": "2026-11-23T06:13:42Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/anyme023/clip/HyperEnergeticSalamanderVoteNay-Us2V6kOGUhcWO25s",
-      "title": "REV 5",
-      "creator": "Anyme023",
-      "views": 6033,
-      "created_at": "2026-11-22T23:07:05Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/guilty1223/clip/NimbleLachrymoseClipsdadTwitchRPG-vZVkZ-dfPSLtKs5v",
       "title": "足元何か横切る",
       "creator": "ギルくん",
-      "views": 6025,
+      "views": 6953,
       "created_at": "2026-11-23T14:05:15Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/illojuan/clip/HomelyPlayfulChimpanzeeHassanChop-e2AgFBsrixYbnet5",
-      "title": "Ea*ster Eggazo \"Qué es este Juego?\"",
+      "url": "https://www.twitch.tv/kiruma_ch/clip/ToughFurtiveWasabiOSfrog-2lSR2qyehY-wLjQD",
+      "title": "神エイムに動揺するきるま",
+      "creator": "切嘛",
+      "views": 6486,
+      "created_at": "2026-11-24T02:59:14Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/illojuan/clip/SquareObservantSpaghettiAMPEnergy-zJFw-ops85IG8t-b",
+      "title": "Canción de mi país",
       "creator": "IlloJuan",
-      "views": 5923,
-      "created_at": "2026-11-22T22:36:37Z",
+      "views": 6269,
+      "created_at": "2026-11-23T22:54:40Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/caseoh_/clip/PhilanthropicToughCakeUWot-N9xNYKnP7VTdWpik",
+      "title": "Casoh's soft locked from completing the game by his chat and is now struggling to make money",
+      "creator": "caseoh_",
+      "views": 6250,
+      "created_at": "2026-11-24T04:09:08Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/eviemeowie/clip/StormyAbstruseTubersFreakinStinkin-WcoQ6j5V34NnsVKX",
       "title": "Parked",
       "creator": "eviemeowie",
-      "views": 5639,
+      "views": 6221,
       "created_at": "2026-11-24T02:55:58Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/yaritaiji/clip/PiercingDaintyEyeballDansGame-E4ScXXg1iflvPuVr",
-      "title": "たいじ「ケツでっかぁ♡プルンプルンでワロタ」",
-      "creator": "たいじ_たいちゃんねる",
-      "views": 5329,
-      "created_at": "2026-11-22T17:10:04Z",
+      "url": "https://www.twitch.tv/ohnepixel/clip/CredulousConcernedDuckAliens-KXzr7E3q5t55CkrC",
+      "title": "WE CANT BE DEADASS",
+      "creator": "ohnePixel",
+      "views": 5726,
+      "created_at": "2026-11-23T15:53:12Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/caseoh_/clip/OutstandingPoorMuleTooSpicy-EPG7Mkqz0hYMboIi",
+      "title": "is it",
+      "creator": "caseoh_",
+      "views": 5604,
+      "created_at": "2026-11-23T13:56:59Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/DarlingGiftedCheeseWoofer-AYlHEKGmN_awQ6yz",
+      "title": "ohne is a dick",
+      "creator": "ohnePixel",
+      "views": 5524,
+      "created_at": "2026-11-23T17:21:07Z",
       "permission": "not_verified"
     }
   ]
