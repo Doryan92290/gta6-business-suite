@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T00:06:41Z",
+  "updated_at": "2026-11-28T08:04:08Z",
   "description": "Twitch API discovery metadata; view counts at detection only. No clip has been cleared for redistribution.",
   "game": "Grand Theft Auto VI",
   "clips": [
@@ -7,160 +7,160 @@
       "url": "https://www.twitch.tv/xalisa/clip/BelovedCleanMonitorArsonNoSexy-fopKLMmGJCBntQsU",
       "title": "mama is cooked",
       "creator": "xAlisa",
-      "views": 39787,
+      "views": 63085,
       "created_at": "2026-11-26T14:10:24Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/gilticus/clip/EnjoyableShakingCougarBleedPurple-jV0SMhq0muM86Dch",
-      "title": "бубасердечко",
-      "creator": "Gilticus",
-      "views": 37508,
-      "created_at": "2026-11-26T18:24:48Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/tminnzy/clip/StupidSuperHerbsHeyGuys-eucUPrGUhTD5GtXs",
       "title": "mf is distracted 😭😭",
       "creator": "Tminnzy",
-      "views": 13642,
+      "views": 49785,
       "created_at": "2026-11-27T14:28:00Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/ohnepixel/clip/StormyDeliciousSalamanderFUNgineer-MI30MH2fhrhqE_TS",
-      "title": "addicted",
-      "creator": "ohnePixel",
-      "views": 6570,
-      "created_at": "2026-11-26T14:12:40Z",
+      "url": "https://www.twitch.tv/gilticus/clip/EnjoyableShakingCougarBleedPurple-jV0SMhq0muM86Dch",
+      "title": "бубасердечко",
+      "creator": "Gilticus",
+      "views": 43915,
+      "created_at": "2026-11-26T18:24:48Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/rubius/clip/AgitatedStupidKleeFutureMan-PNIi0RUPNLiC179R",
       "title": "JASON SE SPAMEA A TIEMPO",
       "creator": "Rubius",
-      "views": 6087,
+      "views": 8741,
       "created_at": "2026-11-26T22:48:41Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/StormyDeliciousSalamanderFUNgineer-MI30MH2fhrhqE_TS",
+      "title": "addicted",
+      "creator": "ohnePixel",
+      "views": 8655,
+      "created_at": "2026-11-26T14:12:40Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/banksatkin/clip/LazyRoundKaleOMGScoots-S7r-zxD3lJawPNcQ",
       "title": "Crazy GTA6 Car Glitch",
       "creator": "BanksAtkin",
-      "views": 5881,
+      "views": 6021,
       "created_at": "2026-11-26T18:00:04Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/bratishkinoff/clip/ViscousTenaciousMilkHeyGirl-iFSaxWNhfKWBzefl",
-      "title": "Фулл",
-      "creator": "bratishkinOFF",
-      "views": 5102,
-      "created_at": "2026-11-26T20:26:52Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/gotaga/clip/MoralKathishPicklesPermaSmug-UEIRnzmcCfJAubFg",
-      "title": "x",
-      "creator": "Gotaga",
-      "views": 4791,
-      "created_at": "2026-11-26T16:38:16Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/joe_bartolozzi/clip/CloudyBeautifulSageAliens-lPvnP92e3db1_lR1",
       "title": "hard r",
       "creator": "Joe_Bartolozzi",
-      "views": 4408,
+      "views": 5835,
       "created_at": "2026-11-26T19:58:44Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/illojuan/clip/ConcernedFuriousOkapiRedCoat-RqZyCRo--PIgibPp",
-      "title": "AIM",
-      "creator": "IlloJuan",
-      "views": 4195,
-      "created_at": "2026-11-26T21:07:16Z",
+      "url": "https://www.twitch.tv/bratishkinoff/clip/ViscousTenaciousMilkHeyGirl-iFSaxWNhfKWBzefl",
+      "title": "Фулл",
+      "creator": "bratishkinOFF",
+      "views": 5546,
+      "created_at": "2026-11-26T20:26:52Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/bratishkinoff/clip/BeautifulEmpathicOilBudBlast-n0DYskC6624tDMXK",
       "title": "200",
       "creator": "bratishkinOFF",
-      "views": 4184,
+      "views": 5183,
       "created_at": "2026-11-26T15:10:24Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/gotaga/clip/MoralKathishPicklesPermaSmug-UEIRnzmcCfJAubFg",
+      "title": "x",
+      "creator": "Gotaga",
+      "views": 5181,
+      "created_at": "2026-11-26T16:38:16Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/illojuan/clip/ConcernedFuriousOkapiRedCoat-RqZyCRo--PIgibPp",
+      "title": "AIM",
+      "creator": "IlloJuan",
+      "views": 4460,
+      "created_at": "2026-11-26T21:07:16Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/jotta/clip/CredulousDarlingHippoTF2John-98eHyCogJwMeW1ca",
+      "title": "-",
+      "creator": "jotta",
+      "views": 3741,
+      "created_at": "2026-11-27T18:52:13Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/bratishkinoff/clip/CleverJoyousBunnySwiftRage-OiU59jZbkTxFV7IT",
       "title": "секси селфи",
       "creator": "bratishkinOFF",
-      "views": 3426,
+      "views": 3616,
       "created_at": "2026-11-26T20:30:56Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/baupenner/clip/IgnorantIgnorantCrocodileDAESuppy-Yjlca7aICOp8LGc4",
-      "title": "Damit hätte ich nicht gerechnet 😂😂",
-      "creator": "BauPenner",
-      "views": 3306,
-      "created_at": "2026-11-26T21:32:39Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/montanablack88/clip/EntertainingEasyRadicchioBabyRage-ZdTNbfH1s-qfE8rj",
-      "title": "Montes neues Aquarium",
-      "creator": "MontanaBlack88",
-      "views": 2952,
-      "created_at": "2026-11-26T08:16:47Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ohnepixel/clip/BreakableWimpyStarlingFutureMan-8I8IqOwAd2RtZEY2",
-      "title": "Meow",
-      "creator": "ohnePixel",
-      "views": 2738,
-      "created_at": "2026-11-26T21:16:36Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/illojuan/clip/SpotlessIgnorantMomPunchTrees-REkZts3DCZZYQgW3",
-      "title": "le llega a donde juan?",
-      "creator": "IlloJuan",
-      "views": 2680,
-      "created_at": "2026-11-26T00:00:58Z",
-      "permission": "not_verified"
-    },
-    {
-      "url": "https://www.twitch.tv/ohnepixel/clip/ComfortableArborealBananaMoreCowbell-hoy5o_IVZ_uaPoZx",
-      "title": "nickeh30",
-      "creator": "ohnePixel",
-      "views": 2664,
-      "created_at": "2026-11-26T16:00:31Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/loserfruit/clip/BlushingAltruisticSalamanderRickroll-fHc0i9TEGcdHBWUf",
       "title": "lucia is a baddie",
       "creator": "Loserfruit",
-      "views": 2591,
+      "views": 3615,
       "created_at": "2026-11-26T13:35:49Z",
       "permission": "not_verified"
     },
     {
-      "url": "https://www.twitch.tv/ohnepixel/clip/SpunkyPlayfulSandwichDerp-jm59fy00oJ0LBAf6",
-      "title": "step ohne i'm stuck",
+      "url": "https://www.twitch.tv/baupenner/clip/IgnorantIgnorantCrocodileDAESuppy-Yjlca7aICOp8LGc4",
+      "title": "Damit hätte ich nicht gerechnet 😂😂",
+      "creator": "BauPenner",
+      "views": 3413,
+      "created_at": "2026-11-26T21:32:39Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/ComfortableArborealBananaMoreCowbell-hoy5o_IVZ_uaPoZx",
+      "title": "nickeh30",
       "creator": "ohnePixel",
-      "views": 2560,
-      "created_at": "2026-11-26T20:16:29Z",
+      "views": 3322,
+      "created_at": "2026-11-26T16:00:31Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/montanablack88/clip/EntertainingEasyRadicchioBabyRage-ZdTNbfH1s-qfE8rj",
+      "title": "Montes neues Aquarium",
+      "creator": "MontanaBlack88",
+      "views": 3015,
+      "created_at": "2026-11-26T08:16:47Z",
       "permission": "not_verified"
     },
     {
       "url": "https://www.twitch.tv/happydies/clip/ThoughtfulWittyMartenSwiftRage-PAbpCfYqKPxZKeLv",
       "title": "Бигфут раскрыт",
       "creator": "HappyDies",
-      "views": 2485,
+      "views": 3014,
       "created_at": "2026-11-27T15:59:27Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/BreakableWimpyStarlingFutureMan-8I8IqOwAd2RtZEY2",
+      "title": "Meow",
+      "creator": "ohnePixel",
+      "views": 2845,
+      "created_at": "2026-11-26T21:16:36Z",
+      "permission": "not_verified"
+    },
+    {
+      "url": "https://www.twitch.tv/mrsavage/clip/FurryRefinedRavenPlanking-Ch_RpPiXRvXRj7Hg",
+      "title": "Savage stream in GTA",
+      "creator": "MrSavage",
+      "views": 2661,
+      "created_at": "2026-11-26T20:57:54Z",
       "permission": "not_verified"
     }
   ]
